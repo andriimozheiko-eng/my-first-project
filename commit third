@@ -1,0 +1,28 @@
+#include <iostream> 
+#include <cmath> 
+
+using namespace std;
+
+int main()
+{
+    double x, y;
+
+    cout << "enter x: ";
+    cin >> x;
+
+    cout << "enter y: ";
+    cin >> y;
+
+    if ((x * x + y * y <= 1) && (x >= 0 || y >= 0))
+    {
+        cout << "Tochka nalezhyt oblasti." << endl;
+    }
+    else
+    {
+        cout << "Tochka ne nalezhyt oblasti." << endl;
+    }
+
+    return 0;
+    //step1
+   // step2
+}
